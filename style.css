@@ -1,4 +1,4 @@
-/* General reset */
+
 body {
   margin: 0;
   padding: 0;
@@ -89,8 +89,8 @@ body {
   padding: 30px;
   display: flex;
   flex-direction: column;
-  justify-content: center; /* centered vertically */
-  align-items: center;     /* centered horizontally */
+  justify-content: center; 
+  align-items: center;     
   text-align: center;
 }
 .page-left h2 {
@@ -111,8 +111,8 @@ body {
   width: 50%;
   display: flex;
   flex-direction: column;
-  justify-content: center; /* centered vertically */
-  align-items: center;     /* centered horizontally */
+  justify-content: center; 
+  align-items: center;     
   padding: 20px;
 }
 .page-right img {
@@ -147,7 +147,7 @@ body {
 .left-arrow { left: 10px; }
 .right-arrow { right: 10px; }
 
-/* Letter form (page 8) */
+
 .letter-form {
   display: none;
 }
@@ -223,7 +223,7 @@ body {
   100% { opacity: 0; transform: translate(-50%, -200px); }
 }
 
-/* Tablet adjustments */
+
 
 @media (max-width: 480px) {
   .book {
@@ -232,25 +232,23 @@ body {
   }
 }
 
-
   .page-left, .page-right {
     width: 100%; /* full width on smaller screens */
     padding: 20px;
   }
 
   .page-right img {
-    width: 100%; /* scale images properly */
+    width: 100%; 
   }
 
   .arrow {
-    font-size: 28px; /* slightly smaller arrows */
+    font-size: 28px; 
   }
-
 
 /* Mobile adjustments */
 @media (max-width: 480px) {
   .site-title {
-    font-size: 28px; /* smaller title */
+    font-size: 28px; 
   }
 
   .page-left h2 {
