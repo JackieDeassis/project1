@@ -2,7 +2,7 @@
 
 ## Live Demo
 
-- Include a link to the live version of the project hosted on GitHub Pages.
+- https://jackiedeassis.github.io/project1/
 
 ## Project Overview
 - This project is an interactive webpage that tells the story of Día de los Muertos (Day of the Dead) through a series of illustrated pages. Users can navigate through the story, view images, and read about traditions, family memories, and symbolic items associated with the holiday.
