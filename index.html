@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Día de los Muertos Book</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Henny+Penny&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Kablammo&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Mansalva&display=swap" rel="stylesheet">
+</head>
+<body>
+  <!-- Overlay intro -->
+  <div id="startOverlay" class="overlay">
+    <button class="overlay-btn">🌼 Click here if you’re curious about Día de los Muertos 🌼</button>
+  </div>
+
+  <h1 class="site-title">Día de los Muertos: A Story in Pictures</h1>
+
+  <div class="book-container">
+    <div class="book">
+      <div class="page-inner" id="pageInner">
+        <div class="page-left" id="pageLeft">
+          <h2 id="pageTitle">Title</h2>
+          <p id="pageBody">Story text goes here...</p>
+
+          <!-- Letter writing form (Page 8 only) -->
+          <div class="letter-form">
+            <p class="letter-instructions">Write a letter here to your missed loved ones, and they will receive it in spirit. Share your love, your memories, or just a simple hello—you are always connected to them. 💖</p>
+          </div>
+        </div>
+
+        <div class="page-right" id="pageRight">
+          <img id="pageImage" src="" alt="Page Image">
+
+          <!-- Letter input on right side (Page 8 only) -->
+          <div class="letter-box">
+            <textarea id="letterInput" placeholder="Write your letter here..."></textarea>
+            <button id="sendBtn" class="special-btn">Send 💌</button>
+            <button id="startOverBtn" class="special-btn">Start Over 🔄</button>
+            <p id="confirmationMsg" class="confirmation"></p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Navigation arrows outside the book -->
+    <button id="prevBtn" class="arrow left-arrow">❮</button>
+    <button id="nextBtn" class="arrow right-arrow">❯</button>
+  </div>
+
+  <!-- Audio -->
+  <audio id="bgMusic" src="audio/background.mp3" loop></audio>
+  <audio id="flipSound" src="audio/Page flip.mp3"></audio>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+
+
+  <script src="script.js"></script>
+</body>
+</html>
