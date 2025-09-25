@@ -118,7 +118,7 @@ startOverlay.addEventListener("click", () => {
   bgMusic.play();
   startOverlay.style.display = "none";
 
-  //GSAP intro animation
+ 
   gsap.from(".book", { duration: 1.2, scale: 0.5, opacity: 0, ease: "elastic.out(1, 0.5)" });
 });
 
